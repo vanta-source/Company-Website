@@ -1,54 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-.navbar {
-  background-color: #fff;
-  padding: 10px 0;
-}
-
-.container {
+.welcome-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  height: 100vh;
+  text-align: center;
+  background-color: #344054;
 }
 
-.logo img {
-  width: 120px;
-}
-
-.menu ul {
-  list-style: none;
-  display: flex;
-  gap: 80px;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 14px;
-  font-weight: 800;
+.welcome-container h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
   font-family: Plus Jakarta Sans;
-  
 }
 
-.menu ul li a:hover {
-  color: #3C3679;
-
+.welcome-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #FEC84B;
+  font-family: Plus Jakarta Sans;
 }
 
-.contact-btn {
-  background-color: #FAE0E1;
-  color: #131126;
+.welcome-container button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #1D2939;
+  color: white;
   border: none;
-  padding: 16px 24px;
-  border-radius: 5px;
+  border-radius: 100px;
   cursor: pointer;
-  font-size: 14px;
   font-family: Plus Jakarta Sans;
-  font-weight: 600;
 }
 
-.contact-btn:hover {
-  background-color: #fcc1c3;
+.welcome-container button:hover {
+  background-color: #ffffff;
+  color: #1D2939;
 }
