@@ -7,10 +7,13 @@
   height: 100vh;
   text-align: center;
   background-color: #344054;
+  background-image:url(/src/assets/BG.png) ;
+  background-size: cover;
 }
 
 .welcome-container h1 {
-  font-size: 3rem;
+  font-size: 6rem;
+  width: 500px;
   margin-bottom: 0.5rem;
   color: #fff;
   font-family: Plus Jakarta Sans;
