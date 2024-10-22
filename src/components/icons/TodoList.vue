@@ -1,10 +1,11 @@
 <template>
+<div class="Back-ground">
   <div class="todo-container">
     <h1>{{ title }}</h1>
     
     <!-- Input for adding a new task -->
     <div class="input-container">
-      <input v-model="newTask" @keyup.enter="addTask" placeholder="Enter a task" />
+      <input v-model="newTask" @keyup.enter="addTask" placeholder="Add New" />
       <button @click="addTask">Add Task</button>
     </div>
     
@@ -15,6 +16,7 @@
         <button @click="removeTask(index)">Delete</button>
       </li>
     </ul>
+  </div>
   </div>
 </template>
 
@@ -43,25 +45,35 @@ export default {
 
 <style scoped>
 /* Styling for the to-do list page */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.Back-ground{
+    height: 100vh;
+    background-color: #344054;
+    display: flex;
+    
+}
 .todo-container {
   max-width: 600px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 20px 84px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .todo-container h1 {
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;
+  font-family: Plus Jakarta Sans;
 }
 
 .input-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  
 }
 
 .input-container input {
