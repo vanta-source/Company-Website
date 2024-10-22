@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 .navbar {
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
   padding: 10px 0;
 }
 
@@ -20,30 +20,35 @@
 .menu ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 80px;
 }
 
 .menu ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Plus Jakarta Sans;
+  
 }
 
 .menu ul li a:hover {
-  color: #007bff;
+  color: #3C3679;
+
 }
 
 .contact-btn {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #FAE0E1;
+  color: #131126;
   border: none;
-  padding: 10px 20px;
+  padding: 16px 24px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
 }
 
 .contact-btn:hover {
-  background-color: #0056b3;
+  background-color: #fcc1c3;
 }
