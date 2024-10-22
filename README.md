@@ -11,7 +11,7 @@ The UI is built with simplicity in mind, ensuring that managing tasks is effortl
 Figma Design File:
 This project comes with a Figma design file that includes wireframes and UI elements for the welcome page and the to-do list interface. The Figma file ensures that the project adheres to a well-thought-out design system, making it easier to maintain visual consistency and scale the application in the future.
 
-The [Figma]() file contains:
+The [Figma](https://www.figma.com/design/wxsuLGgvNTFnE0AqKVzQ6h/Futuristic-Todo-List-(Community)?node-id=0-1&m=dev&t=ddukD0BcETdN5AsC-1) file contains:
 
 Layout of the welcome screen with the main button.
 Task list design elements, including input fields, buttons, and list items.
