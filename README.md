@@ -1,35 +1,17 @@
-# vue-project
+Futuristic To-Do List
+The Futuristic To-Do List is a simple yet powerful task management application built using Vue.js. It features a clean and intuitive interface designed to help users stay organized and productive. The project begins with a welcome screen that introduces the app, displaying two motivational texts: "Futuristic Todo List" and "Start Smart." A central button, labeled "Create To-Do List," prompts the user to begin their task list journey.
 
-This template should help get you started developing with Vue 3 in Vite.
+Once the user clicks the button, a new to-do list is generated with the title "Untitle." From there, users can:
 
-## Recommended IDE Setup
+Add tasks to their list.
+Edit the list dynamically by adding or removing tasks.
+Easily delete tasks as they are completed or no longer needed.
+The UI is built with simplicity in mind, ensuring that managing tasks is effortless and enjoyable.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Figma Design File:
+This project comes with a Figma design file that includes wireframes and UI elements for the welcome page and the to-do list interface. The Figma file ensures that the project adheres to a well-thought-out design system, making it easier to maintain visual consistency and scale the application in the future.
 
-## Customize configuration
+The [Figma]() file contains:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Layout of the welcome screen with the main button.
+Task list design elements, including input fields, buttons, and list items.
