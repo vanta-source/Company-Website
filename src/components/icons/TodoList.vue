@@ -7,13 +7,16 @@
     <div class="input-container">
       <input v-model="newTask" @keyup.enter="addTask" placeholder="Add New" />
       <button @click="addTask">Add Task</button>
+     
     </div>
     
     <!-- Displaying the task list -->
     <ul>
       <li v-for="(task, index) in tasks" :key="index">
+         <input class="checkbox" type="checkbox">
         <span>{{ task }}</span>
         <button @click="removeTask(index)">Delete</button>
+        
       </li>
     </ul>
   </div>
@@ -27,6 +30,7 @@ export default {
       title: 'Untitle', // Title of the to-do list
       tasks: [], // List of tasks
       newTask: '', // New task input
+
     };
   },
   methods: {
